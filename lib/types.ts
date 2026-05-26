@@ -88,4 +88,25 @@ export type OnboardingProfile = {
   nonNegotiable: string;
   preferredReward: string;
   consequence: string;
+  rawIntake?: string;
+  distractionApps?: string[];
+  microLearningTopics?: string[];
+  interventionPreference?: "popup" | "lock_screen" | "silent_log" | "hard_block";
+};
+
+export type PhoneSignal = {
+  source: "manual" | "browser_extension" | "android_usage_stats" | "ios_screen_time" | "desktop_helper";
+  appOrSite: string;
+  category: "social" | "video" | "messages" | "market" | "gaming" | "shopping" | "custom";
+  openedAt: string;
+  durationSeconds: number;
+  triggerReason: string;
+};
+
+export type MicroLesson = {
+  title: string;
+  insight: string;
+  action: string;
+  proofPrompt: string;
+  durationSeconds: number;
 };

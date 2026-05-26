@@ -1,6 +1,7 @@
 import { AlertTriangle, ArrowDown, Blocks, BookOpen, CheckCircle2, MoveRight, TimerReset } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { GlassCard } from "@/components/ui/glass-card";
+import { MicroLessonSimulator } from "@/components/micro-lesson-simulator";
 import { antiProcrastinationProtocol } from "@/lib/behavioral-memory";
 
 export default function CoachPage() {
@@ -46,6 +47,9 @@ export default function CoachPage() {
           <Step icon={MoveRight} label="Mobile" value="Later: Screen Time shortcuts or native app." />
         </div>
       </GlassCard>
+      <div className="mt-5">
+        <MicroLessonSimulator />
+      </div>
     </div>
   );
 }

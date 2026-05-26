@@ -18,7 +18,11 @@ export const defaultOnboardingProfile: OnboardingProfile = {
   realStakes: "",
   nonNegotiable: "Create visible proof before optional tasks.",
   preferredReward: "+70 Execution XP. Unlock one behavioral pattern.",
-  consequence: "No optional tasks until proof is submitted."
+  consequence: "No optional tasks until proof is submitted.",
+  rawIntake: "",
+  distractionApps: ["Instagram", "YouTube", "X", "Reddit"],
+  microLearningTopics: ["focus recovery", "decision quality", "active recall"],
+  interventionPreference: "popup"
 };
 
 export function readStoredProfile(): OnboardingProfile | null {

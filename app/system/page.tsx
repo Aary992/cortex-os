@@ -43,17 +43,17 @@ function SignalLayer() {
             <MonitorSmartphone className="h-6 w-6 text-signal" />
             <p className="text-sm font-semibold text-signal">Signal Layer</p>
           </div>
-          <h2 className="mt-4 max-w-2xl text-2xl font-semibold text-white">Detect drift without building a billion-dollar device stack.</h2>
+          <h2 className="mt-4 max-w-2xl text-2xl font-semibold text-white">Cortex should become mobile-native, but signals come in layers.</h2>
           <p className="mt-3 max-w-3xl text-sm leading-6 text-white/62">
-            A web app cannot reliably see every app a person opens. The capital-light path is a browser extension first: detect distracting domains, trigger Cortex popups, and offer a micro-action instead of passive scrolling.
+            Android can expose app usage with user permission. iOS is much stricter and needs Screen Time / DeviceActivity capabilities. The capital-light path is web brain first, browser extension next, Android usage collector after that, and iOS native only when the product earns it.
           </p>
         </div>
         <span className="rounded-full border border-white/10 bg-white/[0.06] px-3 py-1 text-xs text-white/52">Extension-first</span>
       </div>
       <div className="mt-6 grid gap-3 md:grid-cols-3">
-        <SignalStep title="1. Detect" body="Watch user-defined sites like Instagram, X, YouTube, Reddit, trading feeds, or custom domains." />
-        <SignalStep title="2. Interrupt" body="Show a calm popup only during chosen danger windows or after a threshold." />
-        <SignalStep title="3. Redirect" body="Offer a 60-second Cortex action: shrink mission, micro-learn, submit proof, or reset environment." />
+        <SignalStep title="Web" body="Today: Cortex brain, proof, micro-learning, and manual signal simulation." />
+        <SignalStep title="Extension" body="Next: detect distracting sites and show Cortex popups inside the browser." />
+        <SignalStep title="Mobile" body="Then: Android app usage with permission; iOS Screen Time integration later." />
       </div>
     </GlassCard>
   );
