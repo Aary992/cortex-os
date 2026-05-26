@@ -19,7 +19,7 @@ const config: Config = {
       },
       backgroundImage: {
         "cortex-field":
-          "radial-gradient(circle at 20% 10%, rgba(143,232,200,.18), transparent 30%), radial-gradient(circle at 80% 0%, rgba(255,138,91,.16), transparent 26%), linear-gradient(135deg, #050608 0%, #101216 45%, #08090c 100%)"
+          "radial-gradient(circle at 15% 10%, rgba(108,255,210,.16), transparent 28%), radial-gradient(circle at 82% 6%, rgba(255,111,82,.12), transparent 27%), radial-gradient(circle at 52% 72%, rgba(157,183,255,.1), transparent 31%), linear-gradient(135deg, #060908 0%, #0e1110 34%, #14100f 64%, #06070a 100%)"
       }
     }
   },

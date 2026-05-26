@@ -67,11 +67,11 @@ export function MissionCard({ mission, expanded = false }: { mission: DailyMissi
       )}
 
       <div className="relative mt-6 flex flex-col gap-3 sm:flex-row">
-        <a href="/proof" className="inline-flex items-center justify-center gap-2 rounded-2xl bg-signal px-5 py-3 text-sm font-semibold text-ink shadow-button">
+        <a href="/proof" className="premium-button inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-semibold text-ink">
           <Sparkles className="h-4 w-4" />
           Submit proof
         </a>
-        <a href="/coach" className="inline-flex items-center justify-center rounded-2xl border border-white/12 bg-white/[0.06] px-5 py-3 text-sm font-semibold text-white">
+        <a href="/coach" className="glass-button inline-flex items-center justify-center rounded-2xl px-5 py-3 text-sm font-semibold text-white">
           I am delaying
         </a>
       </div>
